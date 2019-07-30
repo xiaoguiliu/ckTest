@@ -1,2 +1,3 @@
 rootProject.name = 'ckTest'
+include 'day09_demo2'
 
