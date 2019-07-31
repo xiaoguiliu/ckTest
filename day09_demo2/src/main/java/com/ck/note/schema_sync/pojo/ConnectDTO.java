@@ -16,7 +16,7 @@ import lombok.ToString;
 @Setter
 @Getter
 @ToString
-@Builder
+//@Builder
 public class ConnectDTO {
     private String host;
     private Integer port;

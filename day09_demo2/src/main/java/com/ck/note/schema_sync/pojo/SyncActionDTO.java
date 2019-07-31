@@ -15,16 +15,15 @@ import lombok.ToString;
 @Setter
 @Getter
 @ToString
-@Builder
+//@Builder
 public class SyncActionDTO {
     // jdbc:mysql:127.0.0.1:3306/db
     private  ConnectDTO src;
     private  ConnectDTO dst;
     private Action action;
 
-    public static SyncActionDTO of(){
+    public static SyncActionDTO of() {
         return new SyncActionDTO();
     }
-
 
 }
